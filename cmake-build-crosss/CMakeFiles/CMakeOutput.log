@@ -1,0 +1,498 @@
+The system is: Linux - 4.15.0-52-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_644d4/fast && /usr/bin/make -f CMakeFiles/cmTC_644d4.dir/build.make CMakeFiles/cmTC_644d4.dir/build
+make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_644d4.dir/testCCompiler.c.o
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc    -o CMakeFiles/cmTC_644d4.dir/testCCompiler.c.o   -c /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_644d4
+/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_644d4.dir/link.txt --verbose=1
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc      CMakeFiles/cmTC_644d4.dir/testCCompiler.c.o  -o cmTC_644d4 
+make[1]: Leaving directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4463d/fast && /usr/bin/make -f CMakeFiles/cmTC_4463d.dir/build.make CMakeFiles/cmTC_4463d.dir/build
+make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc   -v -o CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o   -c /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc
+Target: arm-linux-gnueabi
+Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object
+Thread model: posix
+gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/ -isysroot /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o -version -o /tmp/cckleWzf.s
+GNU C (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)
+	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include"
+ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include/arm-linux-gnueabi"
+ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include"
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed"
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include
+End of search list.
+GNU C (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)
+	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a4aaf78a271085e4afaa0b32fdc013f4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/as -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o /tmp/cckleWzf.s
+COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+Linking C executable cmTC_4463d
+/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4463d.dir/link.txt --verbose=1
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc     -v CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o  -o cmTC_4463d 
+Using built-in specs.
+COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/lto-wrapper
+Target: arm-linux-gnueabi
+Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object
+Thread model: posix
+gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) 
+COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4463d' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/collect2 --sysroot=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_4463d /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crt1.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crti.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1 -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crtn.o
+make[1]: Leaving directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include]
+  end of search list found
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include]
+  implicit include dirs: [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_4463d/fast && /usr/bin/make -f CMakeFiles/cmTC_4463d.dir/build.make CMakeFiles/cmTC_4463d.dir/build]
+  ignore line: [make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc   -v -o CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o   -c /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc]
+  ignore line: [Target: arm-linux-gnueabi]
+  ignore line: [Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/ -isysroot /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o -version -o /tmp/cckleWzf.s]
+  ignore line: [GNU C (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include/arm-linux-gnueabi"]
+  ignore line: [ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include"]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a4aaf78a271085e4afaa0b32fdc013f4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/as -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o /tmp/cckleWzf.s]
+  ignore line: [COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [Linking C executable cmTC_4463d]
+  ignore line: [/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4463d.dir/link.txt --verbose=1]
+  ignore line: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc     -v CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o  -o cmTC_4463d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabi]
+  ignore line: [Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) ]
+  ignore line: [COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4463d' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/collect2 --sysroot=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_4463d /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crt1.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crti.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1 -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crtn.o]
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/collect2] ==> ignore
+    arg [--sysroot=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4463d] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crt1.o] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crti.o] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o] ==> ignore
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib]
+    arg [CMakeFiles/cmTC_4463d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crtn.o] ==> ignore
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/lib]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib/arm-linux-gnueabi]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/lib;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4fdb6/fast && /usr/bin/make -f CMakeFiles/cmTC_4fdb6.dir/build.make CMakeFiles/cmTC_4fdb6.dir/build
+make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fdb6.dir/testCXXCompiler.cxx.o
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++     -o CMakeFiles/cmTC_4fdb6.dir/testCXXCompiler.cxx.o -c /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4fdb6
+/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fdb6.dir/link.txt --verbose=1
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++       CMakeFiles/cmTC_4fdb6.dir/testCXXCompiler.cxx.o  -o cmTC_4fdb6 
+make[1]: Leaving directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22b73/fast && /usr/bin/make -f CMakeFiles/cmTC_22b73.dir/build.make CMakeFiles/cmTC_22b73.dir/build
+make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++    -v -o CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o -c /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++
+Target: arm-linux-gnueabi
+Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object
+Thread model: posix
+gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/ -isysroot /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc -D_GNU_SOURCE /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cctI1Opo.s
+GNU C++ (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)
+	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1"
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/."
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward"
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include"
+ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include/arm-linux-gnueabi"
+ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include"
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed"
+ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/.
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include
+End of search list.
+GNU C++ (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)
+	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b9201de3cf6e3973fd34be352fbf88b8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/as -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctI1Opo.s
+COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_22b73
+/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22b73.dir/link.txt --verbose=1
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++      -v CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_22b73 
+Using built-in specs.
+COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/lto-wrapper
+Target: arm-linux-gnueabi
+Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object
+Thread model: posix
+gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) 
+COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22b73' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/collect2 --sysroot=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_22b73 /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crt1.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crti.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1 -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crtn.o
+make[1]: Leaving directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/.]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi]
+    add: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include]
+  end of search list found
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include/c++/4.7.1]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/.] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include/c++/4.7.1/backward]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi]
+  collapse include dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include]
+  implicit include dirs: [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include/c++/4.7.1;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include/c++/4.7.1/backward;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/include;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_22b73/fast && /usr/bin/make -f CMakeFiles/cmTC_22b73.dir/build.make CMakeFiles/cmTC_22b73.dir/build]
+  ignore line: [make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++    -v -o CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o -c /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++]
+  ignore line: [Target: arm-linux-gnueabi]
+  ignore line: [Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/ -isysroot /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc -D_GNU_SOURCE /home/xqdd/software/cmake15/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cctI1Opo.s]
+  ignore line: [GNU C++ (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1"]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/."]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward"]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include/arm-linux-gnueabi"]
+  ignore line: [ignoring nonexistent directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc/include"]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/.]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi]
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) version 4.7.1 20120402 (prerelease) (arm-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 4.1.3 20080704 (prerelease) (Ubuntu 4.1.2-27ubuntu1), GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b9201de3cf6e3973fd34be352fbf88b8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/as -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctI1Opo.s]
+  ignore line: [COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_22b73]
+  ignore line: [/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22b73.dir/link.txt --verbose=1]
+  ignore line: [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++      -v CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_22b73 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabi]
+  ignore line: [Configured with: /cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabi --prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install --with-sysroot=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-languages=c,c++,fortran --disable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=softfp --with-pkgversion='crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpfr=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-mpc=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-ppl=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-cloog=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-libelf=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static --with-host-libstdcxx='-L/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/.build/arm-linux-gnueabi/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oort14/crosstool-ng/builds/arm-linux-gnueabi-linux/install/arm-linux-gnueabi/libc --enable-c99 --enable-long-long --with-mode=thumb --enable-gnu-unique-object]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120402 (prerelease) (crosstool-NG linaro-1.13.1-2012.04-20120426 - Linaro GCC 2012.04) ]
+  ignore line: [COMPILER_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/:/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22b73' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/collect2 --sysroot=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_22b73 /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crt1.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crti.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1 -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi -L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o /home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crtn.o]
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../libexec/gcc/arm-linux-gnueabi/4.7.1/collect2] ==> ignore
+    arg [--sysroot=/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_22b73] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crt1.o] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crti.o] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o] ==> ignore
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi]
+    arg [-L/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib] ==> dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib]
+    arg [CMakeFiles/cmTC_22b73.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o] ==> ignore
+    arg [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi/crtn.o] ==> ignore
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/lib] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/lib]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib/arm-linux-gnueabi]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/lib] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi]
+  collapse library dir [/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/lib] ==> [/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi/4.7.1;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/lib/gcc;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/lib;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/lib;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi;/home/xqdd/code/crosslibs/arm-linaro-4.7/arm-linux-gnueabi/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6e99/fast && /usr/bin/make -f CMakeFiles/cmTC_e6e99.dir/build.make CMakeFiles/cmTC_e6e99.dir/build
+make[1]: Entering directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6e99.dir/feature_tests.cxx.o
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++    -std=c++11 -o CMakeFiles/cmTC_e6e99.dir/feature_tests.cxx.o -c /tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e6e99
+/home/xqdd/software/cmake15/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6e99.dir/link.txt --verbose=1
+/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/arm-linux-gnueabi-g++       CMakeFiles/cmTC_e6e99.dir/feature_tests.cxx.o  -o cmTC_e6e99 
+make[1]: Leaving directory '/tmp/tmp.4mssH2rH0r/cmake-build-crosss/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="crosss" CONFIG_NAME="Debug" TOOLCHAIN_NAME="ubuntu cross" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e69f9fc-1d38-4962-9f0f-2d7c0335c950" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/helo_lvgl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/3.15.0-rc3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/common/loadbmp.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/display/R61581.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/display/SSD1963.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/display/ST7565.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/display/fbdev.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/display/monitor.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/AD_touch.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/FT5406EE8.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/XPT2046.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/evdev.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/keyboard.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/libinput.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/mouse.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/indev/mousewheel.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_drivers/win_drv.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/benchmark/benchmark.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/benchmark/benchmark_bg.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/demo/demo.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/demo/img_bubble_pattern.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/sysmon/sysmon.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/terminal/terminal.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_apps/tpcal/tpcal.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_group/lv_test_group.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_misc/lv_test_task.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_obj/lv_test_obj.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_img/img_flower_icon.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_1.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_2.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_3.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_4.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_stress/lv_test_stress.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/5_antialiasing/apple_icon_alpha.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/5_antialiasing/apple_icon_chroma.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/6_images/flower_icon_alpha.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/6_images/lv_tutorial_images.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/6_images/red_flower.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/6_images/red_rose_16.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/7_fonts/arial_20.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/porting/lv_port_disp_template.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/porting/lv_port_fs_template.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/porting/lv_port_indev_template.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_core/lv_disp.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_core/lv_group.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_core/lv_indev.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_core/lv_obj.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_core/lv_refr.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_core/lv_style.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_arc.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_basic.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_img.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_label.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_line.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_rect.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_draw_triangle.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_img_cache.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_draw/lv_img_decoder.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font_fmt_txt.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font_roboto_12.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font_roboto_16.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font_roboto_22.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font_roboto_28.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_font/lv_font_unscii_8.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_hal/lv_hal_disp.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_hal/lv_hal_indev.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_hal/lv_hal_tick.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_anim.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_area.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_circ.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_color.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_fs.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_gc.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_ll.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_log.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_math.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_mem.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_task.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_templ.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_txt.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_misc/lv_utils.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_arc.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_bar.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_btn.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_btnm.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_calendar.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_canvas.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_cb.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_chart.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_cont.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_ddlist.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_gauge.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_img.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_imgbtn.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_kb.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_label.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_led.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_line.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_list.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_lmeter.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_mbox.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_objx_templ.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_page.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_preload.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_roller.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_slider.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_spinbox.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_sw.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_ta.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_table.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_tabview.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_tileview.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_objx/lv_win.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_alien.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_default.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_material.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_mono.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_nemo.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_night.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_templ.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/lvgl/src/lv_themes/lv_theme_zen.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/helo_lvgl.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/helo_lvgl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-crosss/helo_lvgl.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/loadbmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/loadbmp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_adec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_aenc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_ai.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_aio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_ao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_hdmi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_ive.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_pciv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_rc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_region.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_sys.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_vb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_vda.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_vdec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_venc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_vi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_video.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_vo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_comm_vpss.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_debug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_defines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_errno.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_io.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_math.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_tde_api.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_tde_errcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_tde_type.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hi_type.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/hifb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mkp/mod_ext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_adec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_aenc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_ai.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_ao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_hdmi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_ive.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_pciv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_region.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_sys.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_vb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_vda.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_vdec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_venc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_vi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_vo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mpi_vpss.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libVoiceEngine.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libaec.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libanr.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libhdmi.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libjpeg.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libjpeg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libmpi.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libpciv.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libresampler.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libtde.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libtde.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/R61581.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/R61581.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/SSD1963.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/SSD1963.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/ST7565.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/ST7565.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/display.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/fbdev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/fbdev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/monitor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/display/monitor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/docs/astyle_c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/docs/astyle_h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/AD_touch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/AD_touch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/FT5406EE8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/FT5406EE8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/XPT2046.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/XPT2046.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/evdev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/evdev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/indev.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/libinput.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/libinput.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/mouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/mouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/mousewheel.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/indev/mousewheel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/lv_drivers.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/lv_drv_conf_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/win_drv.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drivers/win_drv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_drv_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_ex_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/docs/astyle_c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/docs/astyle_h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/benchmark/benchmark.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/benchmark/benchmark.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/benchmark/benchmark.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/benchmark/benchmark_bg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/benchmark/benchmark_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/demo/bubble_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/demo/demo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/demo/demo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/demo/demo.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/demo/img_bubble_pattern.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/sysmon/sysmon.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/sysmon/sysmon.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/sysmon/sysmon.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/terminal/terminal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/terminal/terminal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/terminal/terminal.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/tpcal/tpcal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/tpcal/tpcal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_apps/tpcal/tpcal.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_ex_conf_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_examples.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_examples.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_group/lv_test_group.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_group/lv_test_group.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_group/lv_test_group.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_group/lv_test_group_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_misc/lv_test_task.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_misc/lv_test_task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_obj/lv_test_obj.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_obj/lv_test_obj.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_obj/lv_test_obj.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_obj/lv_test_object_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_img/flower_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_img/img_flower_icon.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_stress/lv_test_stress.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_stress/lv_test_stress.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_stress/lv_test_stress.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_stress/lv_test_stress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/apple_chroma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/apple_icon_alpha.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/apple_icon_chroma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_flower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_flower_16.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_flower_16_swap.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_flower_32.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_flower_8.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_rose_16.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/blue_rose_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/flower_icon_alpha.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/flower_icon_alpha.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/flower_icon_alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/lv_tutorial_images.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/lv_tutorial_images.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/lv_tutorial_images.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/red_flower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/red_flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/red_rose_16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/6_images/red_rose_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/7_fonts/arial_20.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.clang-format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.github/ISSUE_TEMPLATE/all-other-issues.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/LICENCE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/docs/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/docs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/lv_conf_template.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/lvgl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/lvgl.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_disp_template.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_disp_template.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_fs_template.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_fs_template.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_indev_template.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_indev_template.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/built_in_font/FontAwesome.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/built_in_font/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/built_in_font/built_in_font_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/clang-formatter.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/cppcheck_run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/scripts/lv_conf_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_conf_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_core.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_disp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_disp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_group.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_group.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_indev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_indev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_obj.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_obj.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_refr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_refr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_style.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_core/lv_style.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_arc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_basic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_basic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_img.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_label.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_line.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_rect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_rect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_triangle.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_draw_triangle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_img_cache.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_img_cache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_img_decoder.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_draw/lv_img_decoder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_fmt_txt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_fmt_txt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_roboto_12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_roboto_16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_roboto_22.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_roboto_28.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_font_unscii_8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/lv_symbol_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal_disp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal_disp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal_indev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal_indev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal_tick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_hal/lv_hal_tick.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_anim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_anim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_area.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_area.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_circ.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_circ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_color.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_color.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_fs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_fs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_gc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_gc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_ll.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_ll.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_log.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_log.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_math.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_math.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_mem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_mem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_misc.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_task.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_templ.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_txt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_txt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_utils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_misc/lv_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_arc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_bar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_bar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_btn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_btn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_btnm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_btnm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_calendar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_calendar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_canvas.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_canvas.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_cb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_cb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_chart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_chart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_cont.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_cont.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_ddlist.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_ddlist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_gauge.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_gauge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_img.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_imgbtn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_imgbtn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_kb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_kb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_label.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_led.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_led.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_line.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_lmeter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_lmeter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_mbox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_mbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_objx.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_objx_templ.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_objx_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_page.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_page.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_preload.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_preload.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_roller.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_roller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_slider.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_slider.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_spinbox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_spinbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_sw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_sw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_ta.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_ta.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_table.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_tabview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_tabview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_tileview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_tileview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_win.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_objx/lv_win.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_alien.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_alien.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_default.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_default.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_material.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_material.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_mono.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_mono.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_nemo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_nemo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_night.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_night.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_templ.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_zen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_theme_zen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_themes/lv_themes.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cursor.bmp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.lv_indev_read</find>
+      <find>read</find>
+      <find>COMMON</find>
+      <find>SOURCES</find>
+      <find>dev</find>
+      <find>keyb</find>
+      <find>mouse</find>
+      <find>_HOR_RES</find>
+      <find>HOR_RES</find>
+      <find>test</find>
+      <find>mouse_re</find>
+      <find>ben</find>
+      <find>USE_FBDEV</find>
+      <find>ssd1963_flush</find>
+      <find>flush</find>
+      <find>_disp_drv_t</find>
+      <find>&quot;lvgl/lvgl.h&quot;</find>
+      <find>&quot;lv_ex_conf.h&quot;</find>
+      <find>lv_disp_t</find>
+      <find>lv_task_handler</find>
+      <find>fbdev_flush</find>
+      <find>ioctl</find>
+      <find>fbdev_fill</find>
+      <find>lv_disp_flush_ready</find>
+      <find>lv_disp_drv_t</find>
+      <find>disp_drv</find>
+      <find>lv_disp_is_double_buf</find>
+      <find>disp_refr</find>
+      <find>_cb</find>
+      <find>gps</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>&quot;../lvgl/lvgl.h&quot;</replace>
+      <replace>&quot;../lv_ex_conf.h&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\code\C++\hello\helo_lvgl\lvgl</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1Re82sUE0Gp3wgWo2cmpdJNaAld" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../arm_test1" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\C++\hello\helo_lvgl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\C++\hello\helo_lvgl" />
+      <recent name="D:\code\C++\hello\helo_lvgl\lib" />
+      <recent name="D:\code\C++\hello\helo_lvgl\arm-linux-gnueabi" />
+      <recent name="D:\code\C++\hello\helo_lvgl\cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="debug" type="CLion_Remote" remoteCommand="192.168.1.186:111" symbolFile="" sysroot="">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e69f9fc-1d38-4962-9f0f-2d7c0335c950" name="Default Changelist" comment="" />
+      <created>1562047877319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562047877319</updated>
+      <workItem from="1562047885090" duration="13403000" />
+      <workItem from="1562066931707" duration="34000" />
+      <workItem from="1562067070490" duration="11726000" />
+      <workItem from="1562121906400" duration="18179000" />
+      <workItem from="1562147245892" duration="4888000" />
+      <workItem from="1562154694334" duration="1046000" />
+      <workItem from="1562202249573" duration="1469000" />
+      <workItem from="1562205300577" duration="737000" />
+      <workItem from="1562311452048" duration="4000" />
+      <workItem from="1562311465487" duration="1000" />
+      <workItem from="1570015998534" duration="321000" />
+      <workItem from="1570016335458" duration="153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

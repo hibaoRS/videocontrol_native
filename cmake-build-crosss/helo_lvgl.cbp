@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="helo_lvgl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.4mssH2rH0r/cmake-build-crosss"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.4mssH2rH0r/cmake-build-crosss"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.4mssH2rH0r/cmake-build-crosss"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helo_lvgl">
+				<Option output="/tmp/tmp.4mssH2rH0r/cmake-build-crosss/helo_lvgl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.4mssH2rH0r/cmake-build-crosss"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.4mssH2rH0r/include"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/."/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 helo_lvgl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helo_lvgl/fast">
+				<Option output="/tmp/tmp.4mssH2rH0r/cmake-build-crosss/helo_lvgl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.4mssH2rH0r/cmake-build-crosss"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.4mssH2rH0r/include"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/arm-linux-gnueabi/."/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include/c++/4.7.1/backward"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../lib/gcc/arm-linux-gnueabi/4.7.1/../../../../arm-linux-gnueabi/include"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include/arm-linux-gnueabi"/>
+					<Add directory="/home/xqdd/code/crosslibs/arm-linaro-4.7/bin/../arm-linux-gnueabi/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 helo_lvgl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/tmp.4mssH2rH0r/cmake-build-crosss/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/common/loadbmp.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/common/loadbmp.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_adec.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_aenc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_ai.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_aio.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_ao.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_hdmi.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_ive.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_pciv.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_rc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_region.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_sys.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_vb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_vda.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_vdec.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_venc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_vi.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_video.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_vo.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_comm_vpss.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_common.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_debug.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_defines.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_errno.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_io.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_math.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_tde_api.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_tde_errcode.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_tde_type.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hi_type.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/hifb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/list.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mkp/mod_ext.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_adec.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_aenc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_ai.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_ao.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_hdmi.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_ive.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_pciv.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_region.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_sys.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_vb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_vda.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_vdec.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_venc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_vi.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_vo.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/include/mpi_vpss.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_conf.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/R61581.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/R61581.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/SSD1963.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/SSD1963.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/ST7565.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/ST7565.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/fbdev.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/fbdev.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/monitor.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/display/monitor.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/AD_touch.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/AD_touch.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/FT5406EE8.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/FT5406EE8.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/XPT2046.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/XPT2046.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/evdev.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/evdev.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/keyboard.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/keyboard.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/libinput.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/libinput.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/mouse.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/mouse.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/mousewheel.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/indev/mousewheel.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/lv_drv_conf_templ.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/win_drv.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drivers/win_drv.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_drv_conf.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_ex_conf.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/benchmark/benchmark.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/benchmark/benchmark.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/benchmark/benchmark_bg.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/demo/demo.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/demo/demo.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/demo/img_bubble_pattern.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/sysmon/sysmon.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/sysmon/sysmon.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/terminal/terminal.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/terminal/terminal.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/tpcal/tpcal.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_apps/tpcal/tpcal.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_ex_conf_templ.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_examples.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_group/lv_test_group.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_group/lv_test_group.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_misc/lv_test_task.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_misc/lv_test_task.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_obj/lv_test_obj.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_obj/lv_test_obj.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_img/img_flower_icon.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_1.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_2.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_3.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_4.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_stress/lv_test_stress.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_stress/lv_test_stress.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/5_antialiasing/apple_icon_alpha.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/5_antialiasing/apple_icon_chroma.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/6_images/flower_icon_alpha.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/6_images/lv_tutorial_images.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/6_images/lv_tutorial_images.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/6_images/red_flower.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/6_images/red_rose_16.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/7_fonts/arial_20.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/lv_conf_template.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/lvgl.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/porting/lv_port_disp_template.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/porting/lv_port_disp_template.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/porting/lv_port_fs_template.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/porting/lv_port_fs_template.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/porting/lv_port_indev_template.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/porting/lv_port_indev_template.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_conf_checker.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_disp.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_disp.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_group.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_group.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_indev.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_indev.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_obj.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_obj.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_refr.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_refr.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_style.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_core/lv_style.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_arc.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_arc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_basic.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_basic.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_img.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_img.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_label.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_label.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_line.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_line.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_rect.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_rect.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_triangle.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_draw_triangle.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_img_cache.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_img_cache.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_img_decoder.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_draw/lv_img_decoder.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_fmt_txt.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_fmt_txt.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_roboto_12.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_roboto_16.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_roboto_22.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_roboto_28.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_font_unscii_8.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_font/lv_symbol_def.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal_disp.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal_disp.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal_indev.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal_indev.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal_tick.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_hal/lv_hal_tick.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_anim.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_anim.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_area.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_area.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_circ.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_circ.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_color.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_color.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_fs.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_fs.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_gc.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_gc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_ll.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_ll.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_log.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_log.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_math.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_math.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_mem.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_mem.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_task.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_task.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_templ.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_templ.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_txt.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_txt.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_types.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_utils.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_misc/lv_utils.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_arc.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_arc.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_bar.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_bar.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_btn.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_btn.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_btnm.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_btnm.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_calendar.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_calendar.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_canvas.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_canvas.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_cb.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_cb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_chart.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_chart.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_cont.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_cont.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_ddlist.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_ddlist.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_gauge.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_gauge.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_img.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_img.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_imgbtn.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_imgbtn.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_kb.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_kb.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_label.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_label.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_led.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_led.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_line.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_line.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_list.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_list.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_lmeter.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_lmeter.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_mbox.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_mbox.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_objx_templ.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_objx_templ.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_page.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_page.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_preload.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_preload.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_roller.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_roller.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_slider.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_slider.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_spinbox.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_spinbox.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_sw.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_sw.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_ta.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_ta.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_table.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_table.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_tabview.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_tabview.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_tileview.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_tileview.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_win.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_objx/lv_win.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_alien.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_alien.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_default.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_default.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_material.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_material.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_mono.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_mono.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_nemo.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_nemo.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_night.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_night.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_templ.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_templ.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_zen.c">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_themes/lv_theme_zen.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/lvgl/src/lv_version.h">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/main.cpp">
+			<Option target="helo_lvgl"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.4mssH2rH0r/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
